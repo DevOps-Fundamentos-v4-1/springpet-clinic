@@ -14,9 +14,8 @@ steps:
     projectKey: 'DevOps-Fundamentos-v4-1_springpet-clinic'
     projectName: 'springpet-clinic'
     scannerMode: 'Other'
-
 - task: Gradle@3
-      inputs:
+  inputs:
         gradleWrapperFile: 'gradlew'
         tasks: 'sonarqube'
         publishJUnitResults: false
